@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Language }}">
+	{{ partial "head" . }}
+	<body>
+		{{ partial "background" . }}
+		{{ if not .Params.noNavbar }}
+			{{ partial "navbar" . }}
+		{{ end }}
+		{{- block "main" . }}{{- end }}
+		{{ partial "footer" . }}
+    	</body>
+</html>
