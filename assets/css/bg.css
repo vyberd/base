@@ -11,7 +11,8 @@
 
 .bg img {
 	object-fit: cover;
-	opacity: .25;
+	/*opacity: .25;*/
+	opacity: .75;
 	width: 100%;
 	height: 100%;
 }

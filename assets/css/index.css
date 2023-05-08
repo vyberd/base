@@ -9,11 +9,6 @@ body {
 .title, h1 {
 	font-family: 'Chakra Petch';
 	font-size: calc(2rem + 3vw);
-	opacity: 0;
-}
-
-h1.animate-off {
-	opacity: 1;
 }
 
 .subtitle, h2, h3, h3, h4, h5, h6 {
@@ -56,4 +51,24 @@ li ul li {
 
 .is-full-width {
 	width: 100%;
+}
+
+.color {
+	background-color: transparent;
+	color: var(--color0-text);
+}
+.color0 {
+	background-color: var(--color0-bg);
+	color: var(--color0-text);
+}
+.color1 {
+	background-color: var(--color1-bg);
+	color: var(--color1-text);
+}
+
+.color0 .highlight {
+	color: var(--color0-accent2);
+}
+.color1 .highlight {
+	font-weight: bold;
 }

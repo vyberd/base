@@ -1,3 +1,4 @@
+{{ partial "stylesheet" (dict "name" "css/img.css") }}
 {{ $resource := .ctx.Page.Resources.GetMatch (.name) }}
 {{ if .global }}
 	{{ $resource = resources.GetMatch (.name) }}
