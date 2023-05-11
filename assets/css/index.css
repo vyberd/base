@@ -72,3 +72,27 @@ li ul li {
 .color1 .highlight {
 	font-weight: bold;
 }
+
+.div-img {
+	position: relative;
+	text-align: center;
+}
+
+.no-padding {
+	padding: 0!important;
+}
+
+.bottom {
+	vertical-align: bottom;
+}
+
+.abs-centered {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+.faded {
+	filter: brightness(50%);
+}
