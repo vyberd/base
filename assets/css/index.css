@@ -1,5 +1,4 @@
 body {
-	font-family: 'Rajdhani', sans-serif;
 	font-size: calc(1rem + .5vw);
 }
 .hero-body {
@@ -7,7 +6,6 @@ body {
 }
 
 .title, h1 {
-	font-family: 'Chakra Petch';
 	font-size: calc(2rem + 3vw);
 }
 
