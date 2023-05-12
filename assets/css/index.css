@@ -1,5 +1,6 @@
 body {
 	font-size: calc(1rem + .5vw);
+	overflow-x: hidden;
 }
 .hero-body {
 	padding: 0 0 0 0;
@@ -28,13 +29,14 @@ body {
 .align-right {
 	align-self: flex-end;
 }
-
 .align-left {
 	align-self: flex-start;
 }
-
 .align-center {
 	align-self: center;
+}
+.align-end {
+	align-self: flex-end;
 }
 
 ul {
@@ -71,26 +73,117 @@ li ul li {
 	font-weight: bold;
 }
 
-.div-img {
-	position: relative;
-	text-align: center;
-}
-
 .no-padding {
 	padding: 0!important;
 }
 
-.bottom {
-	vertical-align: bottom;
+.div-img {
+	position: relative;
+	text-align: center;
+	height: 45rem;
+}
+@media only screen and (min-width: 400px) {
+	.div-img {
+		height: 50rem;
+	}
+}
+@media only screen and (min-width: 700px) {
+	.div-img {
+		height: 45rem;
+	}
+}
+@media only screen and (min-width: 850px) {
+	.div-img {
+		height: 50rem;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	.div-img {
+		height: 55rem;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.div-img {
+		height: 65rem;
+	}
+}
+@media only screen and (min-width: 2000px) {
+	.div-img {
+		height: 95rem;
+	}
 }
 
 .abs-centered {
+	display: flex;
+	flex-direction: column;
 	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 50%;
-	left: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
 }
 
 .faded {
 	filter: brightness(50%);
+}
+
+.bottom {
+	/*vertical-align: bottom;*/
+	bottom: 0;
+}
+
+.abnormal-img {
+	max-width: inherit;
+}
+
+.centered {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.me-img {
+	width: 100%;
+}
+@media only screen and (min-width: 1000px) {
+	.me-img {
+		max-width: 60rem;	
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.me-img {
+		max-width: 75rem;	
+	}
+}
+@media only screen and (min-width: 2000px) {
+	.me-img {
+		max-width: 125rem;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.me-img {
+		width: 175%;	
+	}
+}
+@media only screen and (max-width: 400px) {
+	.me-img {
+		width: 200%;	
+	}
+}
+
+.review-card.section {
+	padding: calc(2rem + 2vw);
+	box-sizing: border-box;
+}
+.review-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.little-padding.section {
+	padding: calc(1rem + 2vw);
 }
