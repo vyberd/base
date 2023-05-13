@@ -2,3 +2,5 @@ github.com/vyberd/stylesheet v0.0.0-20230508130157-e93394cab397 h1:uUQKe8f5aRRuY
 github.com/vyberd/stylesheet v0.0.0-20230508130157-e93394cab397/go.mod h1:jrD+CjwvTp7At11ZXIyv0fWTaVy9V/RLLwUui5n0KEI=
 github.com/vyberd/stylesheet v0.0.0-20230508132951-d62b845355ed h1:LO6wO57O4M8mahqwkQcbJlDFR+V9nftTtX9dpUFqlcc=
 github.com/vyberd/stylesheet v0.0.0-20230508132951-d62b845355ed/go.mod h1:RPgxnbH2FhJj5QUwQGAhnZxpp/zCbVUUrWUJ2G3bNwg=
+github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9 h1:dexFuY3rG1ngs3qtp/3IJImFkdzY1Zfi4KsyB4MaC2k=
+github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
