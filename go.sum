@@ -8,3 +8,5 @@ github.com/vyberd/tracking v0.0.0-20230513053629-658bc25b0854 h1:F/G04G6A9jxdFnT
 github.com/vyberd/tracking v0.0.0-20230513053629-658bc25b0854/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
 github.com/vyberd/tracking v0.0.0-20230513063924-2de497d3c4c8 h1:qqvEtmey61IdFH6VSxErveZ9808i10zae/dTvMfRJNc=
 github.com/vyberd/tracking v0.0.0-20230513063924-2de497d3c4c8/go.mod h1:FVmWQVYPZRQJXsZCajDNzQxQurE2y1jYUhaSacvI9PM=
+github.com/vyberd/tracking v0.0.0-20230516082221-f06cea848f6f h1:QVa/AG+w4M00vxjsQjc2CWf2P1wskEGHzjrmNhIoerQ=
+github.com/vyberd/tracking v0.0.0-20230516082221-f06cea848f6f/go.mod h1:b3KMx63oidiL82Oy9umq88QIWQw1/0ndB1zws2VejHg=
