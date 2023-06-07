@@ -184,6 +184,6 @@ li ul li {
 	height: 100%;
 }
 
-.little-padding.section {
+.little-padding {
 	padding: calc(1rem + 2vw);
 }
